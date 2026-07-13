@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlayPredikt</title>
+
+<style>
+body{
+margin:0;
+background:#0B1120;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family:Arial,sans-serif;
+flex-direction:column;
+color:white;
+}
+
+.logo{
+font-size:70px;
+}
+
+h1{
+font-size:48px;
+color:#00E676;
+margin:10px;
+}
+
+p{
+color:#B0BEC5;
+font-size:18px;
+}
+
+.loader{
+margin-top:30px;
+width:45px;
+height:45px;
+border:5px solid #333;
+border-top:5px solid #00E676;
+border-radius:50%;
+animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+100%{transform:rotate(360deg);}
